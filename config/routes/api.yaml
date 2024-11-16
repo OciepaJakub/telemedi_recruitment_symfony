@@ -1,0 +1,4 @@
+exchange_rates.index:
+    path: /api/v1/exchange-rates
+    controller: App\Controller\ExchangeRatesController::index
+    methods: [GET]
